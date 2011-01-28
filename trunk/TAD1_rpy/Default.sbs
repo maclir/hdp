@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 	- _id = GUID 60aac077-a5ef-411e-8e9c-ffbd798c5e7a;
 	- _myState = 8192;
 	- _name = "Default";
-	- _lastID = 31;
-	- weakCGTime = 1.28.2011::15:37:19;
+	- _lastID = 33;
+	- weakCGTime = 1.28.2011::16:8:33;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 	- _eventsBaseID = -1;
@@ -919,7 +919,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID dce2032d-ddc4-4c1a-b541-fe1277fc1cc3;
@@ -933,6 +933,23 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _id = GUID 4d036924-89b1-451f-8583-297a86ed43b7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 964ff5fa-4b0e-4d28-8de5-eb6d9632c905;
+					- _myState = 10240;
+					- _name = "itsSatellite System";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1b6184d5-1850-4d81-b4ff-246e05f9b582;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -1414,7 +1431,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 		}
 	}
 	- Actors = { IRPYRawContainer 
-		- size = 1;
+		- size = 3;
 		- value = 
 		{ IActor 
 			- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
@@ -1854,6 +1871,51 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _linkType = Assoc;
 					- _navigability = Navigable;
 				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
+			- _myState = 8192;
+			- _name = "Satellite System";
+			- weakCGTime = 1.28.2011::16:4:55;
+			- strongCGTime = 1.28.2011::16:4:39;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1b6184d5-1850-4d81-b4ff-246e05f9b582;
+					- _myState = 10240;
+					- _name = "itsRequest Data";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c642d2e2-b2e5-45e1-9951-875667b563e3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 964ff5fa-4b0e-4d28-8de5-eb6d9632c905;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID c9bdac1e-dfca-4050-ab78-726aeae7ad07;
+			- _myState = 8192;
+			- _name = "Repairman";
+			- weakCGTime = 1.28.2011::16:8:48;
+			- strongCGTime = 1.28.2011::16:8:48;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
 		}

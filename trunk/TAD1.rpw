@@ -29,8 +29,8 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _name = "TAD1";
 				- _id = GUID e1497d29-ea39-48cc-8e9c-4bc78e2f7034;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1008 762 ;
+			- _UpLeft = 10 0 ;
+			- _DownRight = 1522 1144 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
