@@ -1,0 +1,484 @@
+I-Logix-RPY-Archive version 8.5.2 Java 2030848
+{ ISubsystem 
+	- _id = GUID 60aac077-a5ef-411e-8e9c-ffbd798c5e7a;
+	- _myState = 8192;
+	- _name = "Default";
+	- _lastID = 31;
+	- weakCGTime = 1.28.2011::12:49:54;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.25.2011::14:30:49;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- UseCases = { IRPYRawContainer 
+		- size = 29;
+		- value = 
+		{ IUseCase 
+			- _id = GUID 629ac3c2-f7bc-4573-9605-54b97b5f28d1;
+			- _myState = 8192;
+			- _name = "Power on and off device";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 892a798c-b3d5-4cd9-be91-15e86962d6fb;
+			- _myState = 8192;
+			- _name = "Turn off";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID ffdae04e-09d2-4d4f-8e7d-145c98f5cc68;
+			- _myState = 8192;
+			- _name = "Update Location";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 45f155dd-4e87-4069-92aa-1ae710bca77d;
+			- _myState = 8192;
+			- _name = "Search Destinations";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 0a03ced8-9473-49e2-b9e4-d27ea055dae4;
+			- _myState = 8192;
+			- _name = "Select Destination";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID ffc53bad-81c4-452c-b21b-e6dc6c95f47d;
+			- _myState = 8192;
+			- _name = "Show Route";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 63ecc417-5dc0-4c57-b126-26da10fe615c;
+			- _myState = 8192;
+			- _name = "Edit Route";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 5e91f082-64dd-445a-9d91-c0ac6df8be9f;
+			- _myState = 8192;
+			- _name = "Show ETA";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID da8274f2-9857-438a-bc23-0ec117ea2ee9;
+			- _myState = 8192;
+			- _name = "Miss turn";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 045cdce2-d395-4f89-8ba2-33a6d60e6847;
+			- _myState = 8192;
+			- _name = "Reach destination";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 529bc1ae-db20-400b-920d-a7d92e457fee;
+			- _myState = 8192;
+			- _name = "Add to Favorites List";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID a7f314c0-1bca-44ca-ac4b-b32f0dbd3660;
+			- _myState = 8192;
+			- _name = "Change Display Brightness";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID ce8ab30e-c1ad-46ad-8080-d7c055337196;
+			- _myState = 8192;
+			- _name = "Set Profile";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 41c40c54-8aa2-432a-bfaa-dcac19bb278d;
+			- _myState = 8192;
+			- _name = "Set up Tones";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 232e6bf0-653b-4140-ab82-e129c16751b0;
+			- _myState = 8192;
+			- _name = "Change Page Sequence";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID c642d2e2-b2e5-45e1-9951-875667b563e3;
+			- _myState = 8192;
+			- _name = "Request Data";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID ef95774d-88cd-47ca-9834-d685c1d9c283;
+			- _myState = 8192;
+			- _name = "Set Time Settings";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID aa3c31dd-f9e8-4c97-8d21-e27d6343e084;
+			- _myState = 8192;
+			- _name = "Delete Profile";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID c9adf31a-bfe4-4e90-b48b-916f258af437;
+			- _myState = 8192;
+			- _name = "Change Batteries";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 7a309791-b186-4612-a22d-b0850af103ab;
+			- _myState = 8192;
+			- _name = "Customize Unit Settings";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID ad0130d3-33c1-4cc2-89e9-db40d21e9ff4;
+			- _myState = 8192;
+			- _name = "Change Language";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 6b6b359f-cd64-46f8-9752-7b16696701f0;
+			- _myState = 8192;
+			- _name = "Choose Map";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID a49774ce-5849-4064-9925-faa5614ca0cb;
+			- _myState = 8192;
+			- _name = "Upload New Maps";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 60532f27-0501-49a9-9343-fbff03b8f502;
+			- _myState = 8192;
+			- _name = "Create Map";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 44996994-263a-45ae-ad6d-c0cffd317bca;
+			- _myState = 8192;
+			- _name = "Measure Distance";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 4e4f914c-5afa-4906-bbcd-e483b8994f1e;
+			- _myState = 8192;
+			- _name = "Calibrate Compass";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID d2ccef74-eaf3-4297-99cc-1c7429d535be;
+			- _myState = 8192;
+			- _name = "Download Geocaches";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 8a9c6ef4-d7a6-475e-ba32-18b3416785e8;
+			- _myState = 8192;
+			- _name = "Change Position Format";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID b9e6d1f1-bcb5-48c2-b505-eb527590c5e2;
+			- _myState = 8192;
+			- _name = "Reset Device";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IActor 
+			- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+			- _myState = 8192;
+			- _name = "user";
+			- weakCGTime = 1.25.2011::13:48:57;
+			- strongCGTime = 1.25.2011::13:48:57;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

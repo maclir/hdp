@@ -1,0 +1,102 @@
+I-Logix-RPY-Archive version 8.5.2 Java 2030848
+{ IComponent 
+	- _id = GUID ccf41d7e-20c5-4de9-8a5e-9c8e7b21ea3a;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID d4b96045-2615-4118-9ab9-309aa8f9f706;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID b862f54d-2632-4548-8606-8c15289aeb57;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID b862f54d-2632-4548-8606-8c15289aeb57;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID a4905480-85a6-41f1-a444-a981a4931c5c;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 60aac077-a5ef-411e-8e9c-ffbd798c5e7a;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "JavaDocProfile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "JavaDocProfile";
+			- _id = GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 1.28.2011::12:49:54;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+
