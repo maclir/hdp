@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 	- _myState = 8192;
 	- _name = "Default";
 	- _lastID = 31;
-	- weakCGTime = 1.28.2011::14:14:26;
+	- weakCGTime = 1.28.2011::15:37:19;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 	- _eventsBaseID = -1;
@@ -462,6 +462,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				- _m2Class = "IActivityGraph";
 				- _id = GUID 0120be46-aef7-41be-94a2-2d42dcd11151;
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID ef58e9b1-8ca9-4bc3-945c-40f88be58115;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c0cc4e85-d96e-4381-bf79-a32a99376e13;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -492,6 +513,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 24322916-22f7-4e1b-a645-24aaae1d0e44;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4bef3bb8-c180-4de6-b1a4-60bb202baec1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -506,6 +548,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 55ee0512-fcf0-48a2-8bc4-2aab21a63284;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3564f30c-ab4e-41f1-8167-10f83bc6a518;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -522,6 +585,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID baff5256-ecb2-45fb-9885-e1005b5e51ea;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5661f07e-5065-4ad4-b63a-9ee19a607d8c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -537,6 +621,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 3780a0b6-ae8b-4d5a-8489-7558b147192f;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 7084f6d3-4ddf-45b2-930e-709d0c1c2230;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -551,6 +656,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 5ad0d9ee-6ca5-462c-b608-f063a49b3607;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 9ef6eed8-19b6-4ba9-9f83-76066b3d411a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -612,6 +738,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID a949c64e-2aa2-49ce-b418-bbc0cdf74a55;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a402565b-b5fc-4b7b-aeee-ad3c4ac0219b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -626,6 +773,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID a96ef350-c2ed-4977-81d7-8a8c4efc19c3;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b43e7898-618a-4182-b6e9-1cfc4569ad05;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -642,6 +810,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID ddd90b5b-8bb8-45a2-8039-945e5566b280;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1555abbf-7421-4411-ae84-5f93c803d62e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -656,6 +845,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 795d2643-2272-4462-a68f-47fe6d8134dd;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b29a9b9b-9097-4859-9668-9e2ec4c1b050;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -672,6 +882,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 43cc2ea6-a549-4d00-b601-0a26e60f024d;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4da6f2dc-c9f4-47fd-96cf-a56c6b9f12d5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -686,6 +917,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID dce2032d-ddc4-4c1a-b541-fe1277fc1cc3;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4d036924-89b1-451f-8583-297a86ed43b7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -702,6 +954,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID a0bf4b16-a9eb-443a-8884-ed463b3b00c4;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4a465aaa-fef6-48fc-9de1-83e458edf6fa;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -716,6 +989,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID eb8f0544-40c7-49d5-9fd9-8d9fcbff57e9;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8d7ac46e-4215-443c-9a7b-d12018691e3a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -732,6 +1026,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b17a28d3-1f6a-4e39-ab64-82af18de389b;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6901fbe7-acc7-4edb-9d30-c9a0089eebf1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -740,12 +1055,33 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 		{ IUseCase 
 			- _id = GUID 7a309791-b186-4612-a22d-b0850af103ab;
 			- _myState = 8192;
-			- _name = "Customize Unit Settings";
+			- _name = "Customize Measurement Settings";
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b797a3b6-5146-46c3-8169-00f7c0063cc7;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5d84db83-f1e7-4986-a0f6-0ae07e91efba;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -762,6 +1098,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e3bfad77-eaf4-44f3-8380-5af94a00e59b;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 7ffac6d5-d290-4029-8bfd-e051f19485bd;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -776,6 +1133,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 500262fd-29f5-4d90-9b2b-6867300e1d64;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 25cfbae5-bea3-4a04-be2c-94a8232871bd;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -792,6 +1170,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 343b838d-febf-411f-980a-fb352549ec2d;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 529b1be2-9e70-45cf-813c-b1a953971197;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -806,6 +1205,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e2cc8ac1-e6da-45ab-9fac-7b491febe815;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 706d2840-ce8c-424c-88bc-2e2b4c2c1248;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -822,6 +1242,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 4687ce86-a252-45a1-88c6-86c8f30b49a4;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 74a3024d-b7a2-422b-bb39-84b549a773cb;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -836,6 +1277,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 8d3b776a-31fd-4d51-b9e3-8b9dbb2913c6;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d6df5f52-2a4a-40f1-9f9e-f3f4ab2ce392;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -852,6 +1314,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID d1be0367-a572-43f2-a2c0-f772dd5bef51;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b566e8d0-c86a-4945-858d-8a473208778f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -867,6 +1350,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1d7c409c-6d52-489e-9442-d75bc3c2f9f1;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 52803fc1-e483-4a3e-b0e3-4fe3ec651b4a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -875,12 +1379,33 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 		{ IUseCase 
 			- _id = GUID b9e6d1f1-bcb5-48c2-b505-eb527590c5e2;
 			- _myState = 8192;
-			- _name = "Reset Device";
+			- _name = "Factory Reset";
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 8859cdbf-dc09-4932-8030-f758bd4dff38;
+					- _myState = 10240;
+					- _name = "itsUser";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID cb5af74f-8ee9-493c-9072-d1efcf349379;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -895,11 +1420,440 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
 			- _myState = 8192;
 			- _name = "user";
-			- weakCGTime = 1.25.2011::13:48:57;
+			- weakCGTime = 1.28.2011::15:43:21;
 			- strongCGTime = 1.25.2011::13:48:57;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 25;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 4a465aaa-fef6-48fc-9de1-83e458edf6fa;
+					- _myState = 10240;
+					- _name = "itsSet Time Settings";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID ef95774d-88cd-47ca-9834-d685c1d9c283;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a0bf4b16-a9eb-443a-8884-ed463b3b00c4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID c0cc4e85-d96e-4381-bf79-a32a99376e13;
+					- _myState = 10240;
+					- _name = "itsPower on and off device";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 629ac3c2-f7bc-4573-9605-54b97b5f28d1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ef58e9b1-8ca9-4bc3-945c-40f88be58115;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 3564f30c-ab4e-41f1-8167-10f83bc6a518;
+					- _myState = 10240;
+					- _name = "itsSearch Destinations";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 45f155dd-4e87-4069-92aa-1ae710bca77d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 55ee0512-fcf0-48a2-8bc4-2aab21a63284;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d6df5f52-2a4a-40f1-9f9e-f3f4ab2ce392;
+					- _myState = 10240;
+					- _name = "itsCalibrate Compass";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 4e4f914c-5afa-4906-bbcd-e483b8994f1e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8d3b776a-31fd-4d51-b9e3-8b9dbb2913c6;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1555abbf-7421-4411-ae84-5f93c803d62e;
+					- _myState = 10240;
+					- _name = "itsSet Profile";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID ce8ab30e-c1ad-46ad-8080-d7c055337196;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ddd90b5b-8bb8-45a2-8039-945e5566b280;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 7084f6d3-4ddf-45b2-930e-709d0c1c2230;
+					- _myState = 10240;
+					- _name = "itsShow Route";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID ffc53bad-81c4-452c-b21b-e6dc6c95f47d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3780a0b6-ae8b-4d5a-8489-7558b147192f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 7ffac6d5-d290-4029-8bfd-e051f19485bd;
+					- _myState = 10240;
+					- _name = "itsChange Language";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID ad0130d3-33c1-4cc2-89e9-db40d21e9ff4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e3bfad77-eaf4-44f3-8380-5af94a00e59b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 8d7ac46e-4215-443c-9a7b-d12018691e3a;
+					- _myState = 10240;
+					- _name = "itsDelete Profile";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID aa3c31dd-f9e8-4c97-8d21-e27d6343e084;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID eb8f0544-40c7-49d5-9fd9-8d9fcbff57e9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b43e7898-618a-4182-b6e9-1cfc4569ad05;
+					- _myState = 10240;
+					- _name = "itsChange Display Brightness";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a7f314c0-1bca-44ca-ac4b-b32f0dbd3660;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a96ef350-c2ed-4977-81d7-8a8c4efc19c3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b566e8d0-c86a-4945-858d-8a473208778f;
+					- _myState = 10240;
+					- _name = "itsDownload Geocaches";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID d2ccef74-eaf3-4297-99cc-1c7429d535be;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d1be0367-a572-43f2-a2c0-f772dd5bef51;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 529b1be2-9e70-45cf-813c-b1a953971197;
+					- _myState = 10240;
+					- _name = "itsUpload New Maps";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID a49774ce-5849-4064-9925-faa5614ca0cb;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 343b838d-febf-411f-980a-fb352549ec2d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b29a9b9b-9097-4859-9668-9e2ec4c1b050;
+					- _myState = 10240;
+					- _name = "itsSet up Tones";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 41c40c54-8aa2-432a-bfaa-dcac19bb278d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 795d2643-2272-4462-a68f-47fe6d8134dd;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 5661f07e-5065-4ad4-b63a-9ee19a607d8c;
+					- _myState = 10240;
+					- _name = "itsSelect Destination";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 0a03ced8-9473-49e2-b9e4-d27ea055dae4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID baff5256-ecb2-45fb-9885-e1005b5e51ea;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4da6f2dc-c9f4-47fd-96cf-a56c6b9f12d5;
+					- _myState = 10240;
+					- _name = "itsChange Page Sequence";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 232e6bf0-653b-4140-ab82-e129c16751b0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 43cc2ea6-a549-4d00-b601-0a26e60f024d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 706d2840-ce8c-424c-88bc-2e2b4c2c1248;
+					- _myState = 10240;
+					- _name = "itsCreate Route";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 60532f27-0501-49a9-9343-fbff03b8f502;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e2cc8ac1-e6da-45ab-9fac-7b491febe815;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4bef3bb8-c180-4de6-b1a4-60bb202baec1;
+					- _myState = 10240;
+					- _name = "itsUpdate Location";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID ffdae04e-09d2-4d4f-8e7d-145c98f5cc68;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 24322916-22f7-4e1b-a645-24aaae1d0e44;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 52803fc1-e483-4a3e-b0e3-4fe3ec651b4a;
+					- _myState = 10240;
+					- _name = "itsChange Position Format";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 8a9c6ef4-d7a6-475e-ba32-18b3416785e8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1d7c409c-6d52-489e-9442-d75bc3c2f9f1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9ef6eed8-19b6-4ba9-9f83-76066b3d411a;
+					- _myState = 10240;
+					- _name = "itsEdit Route";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 63ecc417-5dc0-4c57-b126-26da10fe615c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5ad0d9ee-6ca5-462c-b608-f063a49b3607;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4d036924-89b1-451f-8583-297a86ed43b7;
+					- _myState = 10240;
+					- _name = "itsRequest Data";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c642d2e2-b2e5-45e1-9951-875667b563e3;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID dce2032d-ddc4-4c1a-b541-fe1277fc1cc3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID a402565b-b5fc-4b7b-aeee-ad3c4ac0219b;
+					- _myState = 10240;
+					- _name = "itsAdd to Favorites List";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 529bc1ae-db20-400b-920d-a7d92e457fee;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID a949c64e-2aa2-49ce-b418-bbc0cdf74a55;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 25cfbae5-bea3-4a04-be2c-94a8232871bd;
+					- _myState = 10240;
+					- _name = "itsChoose Map";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 6b6b359f-cd64-46f8-9752-7b16696701f0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 500262fd-29f5-4d90-9b2b-6867300e1d64;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 74a3024d-b7a2-422b-bb39-84b549a773cb;
+					- _myState = 10240;
+					- _name = "itsMeasure Distance";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 44996994-263a-45ae-ad6d-c0cffd317bca;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4687ce86-a252-45a1-88c6-86c8f30b49a4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6901fbe7-acc7-4edb-9d30-c9a0089eebf1;
+					- _myState = 10240;
+					- _name = "itsChange Batteries";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c9adf31a-bfe4-4e90-b48b-916f258af437;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b17a28d3-1f6a-4e39-ab64-82af18de389b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 5d84db83-f1e7-4986-a0f6-0ae07e91efba;
+					- _myState = 10240;
+					- _name = "itsCustomize Measurement Settings";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 7a309791-b186-4612-a22d-b0850af103ab;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b797a3b6-5146-46c3-8169-00f7c0063cc7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID cb5af74f-8ee9-493c-9072-d1efcf349379;
+					- _myState = 10240;
+					- _name = "itsFactory Reset";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID b9e6d1f1-bcb5-48c2-b505-eb527590c5e2;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8859cdbf-dc09-4932-8030-f758bd4dff38;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 		}
