@@ -316,7 +316,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 			}
 			- _name = "TAD1";
-			- _lastModifiedTime = "1.28.2011::12:22:0";
+			- _lastModifiedTime = "1.28.2011::14:13:50";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8f488ffe-28f1-49df-a564-eca309e820d2;
 				- m_type = 0;
@@ -604,7 +604,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.20472 0 0 0.118745 76.4751 403.435 ;
+					- m_transform = 0.276648 0 0 0.130054 30.4973 395.352 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -649,7 +649,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189965 0 0 0.0837162 625.625 766.309 ;
+					- m_transform = 0.212097 0 0 0.141387 600.791 703.792 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
