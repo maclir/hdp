@@ -178,7 +178,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _myState = 8192;
 			- _properties = { IPropertyContainer 
 				- Subjects = { IRPYRawContainer 
-					- size = 1;
+					- size = 2;
 					- value = 
 					{ IPropertySubject 
 						- _Name = "Format";
@@ -345,10 +345,29 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 							}
 						}
 					}
+					{ IPropertySubject 
+						- _Name = "General";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Graphics";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "grid_snap";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 			- _name = "TAD1";
-			- _lastModifiedTime = "1.28.2011::16:3:32";
+			- _lastModifiedTime = "1.28.2011::16:13:44";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8f488ffe-28f1-49df-a564-eca309e820d2;
 				- m_type = 0;
@@ -372,7 +391,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 53;
+				- elementList = 55;
 				{ CGIClass 
 					- _id = GUID 78b82330-05b1-4156-917b-57c77960b019;
 					- m_type = 78;
@@ -425,6 +444,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID a2684fb2-3d2b-487a-a130-a33976e97100;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Actor";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size@Label.Name";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 124;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
@@ -472,8 +516,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 753a7680-5fd5-4e1f-acb3-84e6e1bb1fa5;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "System_Border";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -514,7 +577,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.480456 0 0 0.493548 182 4 ;
+					- m_transform = 1.057 0 0 0.729032 182 4 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 1240  1228 1240  1228 0  ;
 					- m_nNameFormat = 0;
@@ -522,6 +585,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID add91e82-4780-44f0-871f-539dea6a2432;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -546,7 +634,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.241681 0 0 0.126478 35.9529 97.877 ;
+					- m_transform = 0.161399 0 0 0.126478 179.44 60.8416 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -567,6 +655,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID ec444362-99df-49e4-b65a-4fc96e73e2e2;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -591,7 +704,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189965 0 0 0.0837162 909.045 442.218 ;
+					- m_transform = 0.160891 0 0 0.126794 781.779 488.446 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -612,6 +725,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 293c03fb-c70f-4634-abc5-28978e648c95;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -636,7 +774,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.276648 0 0 0.130054 30.4973 395.352 ;
+					- m_transform = 0.160891 0 0 0.126794 293.605 685.968 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -657,6 +795,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 4036ca77-7f09-44ea-9c87-613fd5069347;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -681,7 +844,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.212097 0 0 0.141387 600.791 703.792 ;
+					- m_transform = 0.160891 0 0 0.126794 702.309 685.968 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -702,6 +865,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 6def18d8-4f9e-482e-b9f8-6c93d5ff9196;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -726,7 +914,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189964 0 0 0.0837163 574.455 125.422 ;
+					- m_transform = 0.160891 0 0 0.126794 622.838 76.941 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -747,6 +935,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 66dea20b-675c-49eb-ae48-9ef4b1a7880b;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -771,7 +984,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.212097 0 0 0.0874369 63.2467 902.197 ;
+					- m_transform = 0.160891 0 0 0.126794 418.486 850.57 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -792,6 +1005,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 4e2442f2-5549-46a3-936a-bcf57ba8ff9d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -816,52 +1054,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189964 0 0 0.0837163 349.376 455.553 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 -2 -1  -2 1070  1127 1070  1127 -1  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-				}
-				{ CGIBasicClass 
-					- _id = GUID 081d4dcd-3a5f-4da7-99e0-9753f80a8096;
-					- m_type = 125;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IUseCase";
-						- _filename = "Default.sbs";
-						- _subsystem = "Default";
-						- _class = "";
-						- _name = "Reach destination";
-						- _id = GUID 045cdce2-d395-4f89-8ba2-33a6d60e6847;
-					}
-					- m_pParent = GUID 753a7680-5fd5-4e1f-acb3-84e6e1bb1fa5;
-					- m_name = { CGIText 
-						- m_str = "Reach destination";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 2056;
-					- m_transform = 0.189965 0 0 0.0837162 301.313 606.545 ;
+					- m_transform = 0.160891 0 0 0.126794 327.663 455.525 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -882,6 +1075,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID f5ac0404-38c4-4ac7-84a7-7602054abd11;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -906,7 +1124,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189965 0 0 0.0837162 607.579 909.412 ;
+					- m_transform = 0.160891 0 0 0.126794 622.838 850.57 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -927,6 +1145,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 1548aadb-479e-4db2-8527-2a23dfbc175d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -951,7 +1194,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.241605 0 0 0.156901 20.927 541.918 ;
+					- m_transform = 0.160891 0 0 0.126794 214.134 274.463 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -972,6 +1215,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID e001606f-ba1a-4e67-946c-8efbe63fcc46;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -996,7 +1264,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189964 0 0 0.0837163 340.506 123.811 ;
+					- m_transform = 0.160891 0 0 0.126794 407.133 60.4808 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1017,6 +1285,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 6706a755-147f-407d-8ff0-7ef6f00bfc7d;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1041,7 +1334,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.21394 0 0 0.10046 643.426 272.745 ;
+					- m_transform = 0.160891 0 0 0.126794 656.897 274.463 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1062,6 +1355,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 2aef2536-7263-41a0-9e87-a4d91b3811b7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1086,7 +1404,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.221317 0 0 0.133185 897.391 702.161 ;
+					- m_transform = 0.160891 0 0 0.126794 918.013 702.428 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1107,6 +1425,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID bf986c50-068a-4a39-a527-3cb386488de7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1131,7 +1474,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.210251 0 0 0.0985992 344.028 898.439 ;
+					- m_transform = 0.160891 0 0 0.126794 350.369 1031.63 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1152,6 +1495,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 50360f02-0065-479d-983e-44766b5942b2;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1176,7 +1544,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.189965 0 0 0.0837163 78.7029 280.836 ;
+					- m_transform = 0.160891 0 0 0.126794 89.2527 455.525 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1197,6 +1565,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID cfea6638-4da8-412b-b792-667a892559ce;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1221,7 +1614,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.213941 0 0 0.107901 629.555 436.897 ;
+					- m_transform = 0.160891 0 0 0.126794 554.721 471.985 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1242,6 +1635,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 52766fbd-f65d-42a9-aeec-1dc592252815;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1266,7 +1684,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 306.435 1023.34 ;
+					- m_transform = 0.160891 0 0 0.126794 202.782 850.57 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1287,6 +1705,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 8ddf3b07-c549-4eb1-8553-3298e2a9ba1b;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1311,7 +1754,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 587.418 1013.21 ;
+					- m_transform = 0.160891 0 0 0.126794 566.074 1031.63 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1332,6 +1775,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID dee0c6e5-b589-4748-bcd0-96f6c25799eb;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1356,7 +1824,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 824.692 89.2847 ;
+					- m_transform = 0.160891 0 0 0.126794 838.543 93.4012 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1377,6 +1845,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 69afd51f-66a2-4a53-9d0d-0dba9a9796b5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1401,7 +1894,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 868.401 863.272 ;
+					- m_transform = 0.160891 0 0 0.126794 838.543 850.57 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1422,6 +1915,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 8a55f8fb-66d3-4d0d-922e-be01eb1bb811;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1446,7 +1964,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 920.435 259.481 ;
+					- m_transform = 0.160891 0 0 0.126794 872.602 274.463 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1467,6 +1985,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 0bc688ac-844e-4c5a-95ce-25a6e07a72c3;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1491,7 +2034,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 866.32 555.298 ;
+					- m_transform = 0.160891 0 0 0.126794 997.484 488.446 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1512,6 +2055,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID a896834c-5573-4857-9aaa-55585ba9f55a;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1536,7 +2104,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.230442 0 0 0.115402 33.7626 1019.26 ;
+					- m_transform = 0.160891 0 0 0.126794 134.664 1031.63 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1557,6 +2125,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 813fa35b-65bc-4a52-8c74-4d441a8b42f0;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1581,7 +2174,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 345.981 271.638 ;
+					- m_transform = 0.160891 0 0 0.126794 429.839 274.463 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1602,6 +2195,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 6cf738de-8a11-43ea-8182-c8b6af561feb;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1626,7 +2244,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.237816 0 0 0.13432 343.899 747.781 ;
+					- m_transform = 0.160891 0 0 0.126794 497.957 685.968 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1647,6 +2265,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID 4d945d7f-b28d-423d-871e-2fff2d786a36;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1671,7 +2314,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.241503 0 0 0.153238 33.7847 725.513 ;
+					- m_transform = 0.160891 0 0 0.126794 89.2527 685.968 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1692,6 +2335,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				{ CGIBasicClass 
 					- _id = GUID c2df1716-4b9c-4f10-89d5-e3d5782e32c5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "UseCase";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 125;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUseCase";
@@ -1716,7 +2384,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.241503 0 0 0.104051 903.791 1041.54 ;
+					- m_transform = 0.160891 0 0 0.126794 781.779 1031.63 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1739,8 +2407,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 3b2fed48-2cde-4d1d-8cd1-3e1980bf9e18;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -1913,8 +2600,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID b5f407a2-0886-465b-8709-2cc11ac6beff;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -2087,8 +2793,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID d406fa24-257c-47a3-94b1-05ae734ece9b;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -2261,8 +2986,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 22fd4de2-ae45-435d-99a3-b3c14180e46e;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -2435,8 +3179,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 78cd32b8-1629-42d6-b486-45100509db63;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -2609,8 +3372,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 9d4957fc-0981-48c0-8d81-c914833f6650;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -2679,7 +3461,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
 					- m_SourcePort = 710 573 ;
-					- m_TargetPort = 427 844 ;
+					- m_TargetPort = 526 9 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
@@ -2783,8 +3565,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 24b16348-aed4-42d6-b7bd-f888d6c89ad4;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -2957,8 +3758,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID e5e05acd-8c18-45cd-b77a-071f5545d086;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -3131,8 +3951,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 7e45f6b1-5e8c-4e87-ad9f-92aecfb30058;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -3305,8 +4144,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID d27bdf27-9fdb-4450-9daf-75bf2f14ec3d;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -3479,8 +4337,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 81f59229-4d8f-4f29-869c-4928085a496a;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -3653,8 +4530,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 7531ef7d-4b23-40c7-9bf2-4e0853ae42c7;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -3827,8 +4723,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID c578eefd-a816-47ac-99bf-6e41246f09ce;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -4001,8 +4916,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID ef6d485e-a4d2-4f15-b224-0cedec87c07f;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -4175,8 +5109,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 7d13325d-5961-4669-91a2-9f1d8a9e9660;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -4349,8 +5302,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 99cfa22e-4806-457c-a81f-4f0359b61221;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -4523,8 +5495,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID a0a5f59b-3650-4be8-bfee-82fef5ebdd40;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -4697,8 +5688,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 9dd68ec2-899a-4f77-b94f-5da209d7f63c;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -4871,8 +5881,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 93f5ddc9-5f8d-4ffd-bb5d-18daff1f1b48;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -5045,8 +6074,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 663f9765-b8ff-4ee4-83cf-c31f22c88c9c;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -5219,8 +6267,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID d0f60093-b923-437b-9eba-46cbc098616e;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -5393,8 +6460,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 5f8fd014-1e8e-4e71-b8bd-0296e5374fb5;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -5567,8 +6653,27 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _id = GUID 338e99e1-bf89-4ffe-8f59-73d47cb2dc77;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
-							- size = 1;
+							- size = 2;
 							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
 							{ IPropertySubject 
 								- _Name = "General";
 								- Metaclasses = { IRPYRawContainer 
@@ -5736,6 +6841,315 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_specificType = symmetric_type;
+				}
+				{ CGIBasicClass 
+					- _id = GUID 36bf5072-80fa-4767-8a80-2730a867983f;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Actor";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size@Label.Name";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 124;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IActor";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "Satellite System";
+						- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
+					}
+					- m_pParent = GUID 78b82330-05b1-4156-917b-57c77960b019;
+					- m_name = { CGIText 
+						- m_str = "Satellite System";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 4 -26 -8  121 -8  121 15  -26 15  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 1;
+						- m_transform = 1.13605 0 0 1.78261 394.537 1113.26 ;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2056;
+					- m_transform = 0.077634 0 0 0.123909 402.895 926.023 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 40 250  40 1396  1122 1396  1122 250  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+				}
+				{ CGIAssociationEnd 
+					- _id = GUID 50002ed1-faec-43b4-820c-f61317bf55ca;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Association";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "14";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 94;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "Satellite System";
+						- _name = "itsRequest Data";
+						- _id = GUID 1b6184d5-1850-4d81-b4ff-246e05f9b582;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 0;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 36bf5072-80fa-4767-8a80-2730a867983f;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID bf986c50-068a-4a39-a527-3cb386488de7;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 7;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 1045 532 ;
+					- m_TargetPort = 561 567 ;
+					- m_pInverseModelObject = { IAssociationEndHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "Request Data";
+						- _name = "itsSatellite System";
+						- _id = GUID 964ff5fa-4b0e-4d28-8de5-eb6d9632c905;
+					}
+					- m_pInstance = { IObjectLinkHandle 
+						- _m2Class = "";
+					}
+					- m_pInverseInstance = { IObjectLinkHandle 
+						- _m2Class = "";
+					}
+					- m_bShowSourceMultiplicity = 0;
+					- m_bShowSourceRole = 0;
+					- m_bShowTargetMultiplicity = 0;
+					- m_bShowTargetRole = 0;
+					- m_bShowLinkName = 1;
+					- m_bShowSpecificType = 0;
+					- m_bInstance = 0;
+					- m_bShowQualifier1 = 0;
+					- m_bShowQualifier2 = 0;
+					- m_sourceRole = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 2;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_targetRole = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 3;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_sourceMultiplicity = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 4;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_targetMultiplicity = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 5;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_sourceQualifier = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 6;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_targetQualifier = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 7;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_specificType = symmetric_type;
+				}
+				{ CGIBasicClass 
+					- _id = GUID d93a49d3-3656-4461-8007-8806e7efe067;
+					- m_type = 124;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IActor";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "Repairman";
+						- _id = GUID c9bdac1e-dfca-4050-ab78-726aeae7ad07;
+					}
+					- m_pParent = GUID 78b82330-05b1-4156-917b-57c77960b019;
+					- m_name = { CGIText 
+						- m_str = "Repairman";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2056;
+					- m_transform = 0.077634 0 0 0.123909 620.895 928.023 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 40 250  40 1396  1122 1396  1122 250  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
 				}
 				
 				- m_access = 'Z';
