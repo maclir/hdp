@@ -404,7 +404,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 			}
 			- _name = "TAD1";
-			- _lastModifiedTime = "1.29.2011::14:38:36";
+			- _lastModifiedTime = "1.29.2011::22:30:21";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8f488ffe-28f1-49df-a564-eca309e820d2;
 				- m_type = 0;
@@ -614,7 +614,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.057 0 0 0.729032 182 4 ;
+					- m_transform = 1.057 0 0 0.729032 180 0 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 1240  1228 1240  1228 0  ;
 					- m_nNameFormat = 0;
@@ -6649,12 +6649,12 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Satellite System";
+						- _name = "satellite_system";
 						- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
 					}
 					- m_pParent = GUID 78b82330-05b1-4156-917b-57c77960b019;
 					- m_name = { CGIText 
-						- m_str = "Satellite System";
+						- m_str = "satellite_system";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -6738,7 +6738,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Satellite System";
+						- _class = "satellite_system";
 						- _name = "itsRequest Data";
 						- _id = GUID 1b6184d5-1850-4d81-b4ff-246e05f9b582;
 					}
@@ -6786,7 +6786,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "Request Data";
-						- _name = "itsSatellite System";
+						- _name = "itsSatellite_system";
 						- _id = GUID 964ff5fa-4b0e-4d28-8de5-eb6d9632c905;
 					}
 					- m_pInstance = { IObjectLinkHandle 
