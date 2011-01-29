@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 	- _myState = 8192;
 	- _name = "Default";
 	- _lastID = 33;
-	- weakCGTime = 1.29.2011::14:27:37;
+	- weakCGTime = 1.29.2011::22:30:21;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 	- _eventsBaseID = -1;
@@ -15,7 +15,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- weakCGTime = 1.29.2011::13:38:41;
+			- weakCGTime = 1.29.2011::14:27:37;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1162,7 +1162,7 @@ Looking at the ETA - Basic flow.\\par
 				{ IAssociationEnd 
 					- _id = GUID 964ff5fa-4b0e-4d28-8de5-eb6d9632c905;
 					- _myState = 10240;
-					- _name = "itsSatellite System";
+					- _name = "itsSatellite_system";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
@@ -1620,7 +1620,7 @@ Having installed and up to date maps\\par
 				{ IAssociationEnd 
 					- _id = GUID 823b9e56-ba6e-4370-a9fd-225ffa80f0c2;
 					- _myState = 10240;
-					- _name = "itsSatellite System";
+					- _name = "itsSatellite_system";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
@@ -2230,9 +2230,9 @@ Having installed and up to date maps\\par
 		{ IActor 
 			- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
 			- _myState = 8192;
-			- _name = "Satellite System";
-			- weakCGTime = 1.29.2011::13:43:21;
-			- strongCGTime = 1.28.2011::16:4:39;
+			- _name = "satellite_system";
+			- weakCGTime = 1.29.2011::22:30:21;
+			- strongCGTime = 1.29.2011::22:30:21;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
