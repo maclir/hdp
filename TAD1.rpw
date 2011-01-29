@@ -4,36 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 		- size = 0;
 	}
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 1;
-		- value = 
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = 0;
-				- m_ptMinPositionY = 729;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 50;
-				- m_nTop = 50;
-				- m_nRight = 652;
-				- m_nBottom = 468;
-			}
-			- _wasOpenedOnCloseProject = 0;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IUCDiagram";
-				- _filename = "";
-				- _subsystem = "";
-				- _class = "";
-				- _name = "TAD1";
-				- _id = GUID e1497d29-ea39-48cc-8e9c-4bc78e2f7034;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 2092 1329 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-		}
+		- size = 0;
 	}
 	- _fullName = "C:\\Users\\Leon Moosman\\Documents\\A_TAD_DIT135\\hdp\\TAD1";
 	- m_SearchScopeList = { IRPYRawContainer 
