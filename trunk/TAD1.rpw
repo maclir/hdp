@@ -9,8 +9,8 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -30,12 +30,12 @@ I-Logix-RPY-Archive version 8.5.2 * 2030848
 				- _id = GUID e1497d29-ea39-48cc-8e9c-4bc78e2f7034;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 1890 1038 ;
+			- _DownRight = 3153 2076 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "C:\\Users\\Leon Moosman\\Documents\\A_TAD_DIT135\\hdp\\TAD1";
+	- _fullName = "D:\\studies\\TAD\\TAD1";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
