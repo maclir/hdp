@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 	- _myState = 8192;
 	- _name = "Default";
 	- _lastID = 33;
-	- weakCGTime = 1.28.2011::16:8:33;
+	- weakCGTime = 1.29.2011::13:38:41;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 	- _eventsBaseID = -1;
@@ -15,7 +15,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- weakCGTime = 1.25.2011::14:30:49;
+			- weakCGTime = 1.28.2011::16:8:33;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -286,7 +286,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _name = "activity_2";
 					- _lastID = 1;
 					- weakCGTime = 1.28.2011::13:28:14;
-					- strongCGTime = 1.28.2011::13:28:14;
+					- strongCGTime = 1.2.1990::0:0:0;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -303,7 +303,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						}
 					}
 					- _version = 1.28.2011::14:28:14;
-					- _baseVersion = 1.1.1970::1:0:0;
+					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = { IActivityDiagram 
 						- _id = GUID aee97121-4194-4f38-94d3-dd37c0ab91aa;
 						- _myState = 10240;
@@ -507,7 +507,33 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID ffdae04e-09d2-4d4f-8e7d-145c98f5cc68;
 			- _myState = 8192;
 			- _name = "Update Location";
-			- weakCGTime = 1.2.1990::0:0:0;
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID c1326446-059a-499e-98c6-d02a0249e235;
+					- _myState = 2048;
+					- _name = "Request Data";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c642d2e2-b2e5-45e1-9951-875667b563e3;
+					}
+				}
+			}
+			- _lastID = 1;
+			- weakCGTime = 1.29.2011::13:39:31;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -615,7 +641,21 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID ffc53bad-81c4-452c-b21b-e6dc6c95f47d;
 			- _myState = 8192;
 			- _name = "Show Route";
-			- weakCGTime = 1.2.1990::0:0:0;
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 33947bb2-bd7f-4be1-8549-ce5ab68c4a31;
+					- _myState = 2048;
+					- _name = "Select Destination";
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 0a03ced8-9473-49e2-b9e4-d27ea055dae4;
+					}
+				}
+			}
+			- _lastID = 1;
+			- weakCGTime = 1.29.2011::13:44:51;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -804,7 +844,54 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID ce8ab30e-c1ad-46ad-8080-d7c055337196;
 			- _myState = 8192;
 			- _name = "Set Profile";
-			- weakCGTime = 1.2.1990::0:0:0;
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 685dbea5-92ea-43a5-b998-11e3ba16fe44;
+					- _myState = 2048;
+					- _name = "Change Language";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID ad0130d3-33c1-4cc2-89e9-db40d21e9ff4;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 58e3d1aa-5759-43b0-ab6c-36eb0c87869c;
+					- _myState = 2048;
+					- _name = "Delete Profile";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "include";
+							- _id = GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID aa3c31dd-f9e8-4c97-8d21-e27d6343e084;
+					}
+				}
+			}
+			- _lastID = 2;
+			- weakCGTime = 1.29.2011::13:42:47;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1044,7 +1131,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID b17a28d3-1f6a-4e39-ab64-82af18de389b;
@@ -1058,6 +1145,23 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _id = GUID 6901fbe7-acc7-4edb-9d30-c9a0089eebf1;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ea1127ac-4e99-4eba-8f8a-6e01353c735a;
+					- _myState = 10240;
+					- _name = "itsRepairman";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID c9bdac1e-dfca-4050-ab78-726aeae7ad07;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1d22090c-1062-476e-84d2-e6c0bdf80442;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -1296,7 +1400,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 3;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 8d3b776a-31fd-4d51-b9e3-8b9dbb2913c6;
@@ -1310,6 +1414,40 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _id = GUID d6df5f52-2a4a-40f1-9f9e-f3f4ab2ce392;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 823b9e56-ba6e-4370-a9fd-225ffa80f0c2;
+					- _myState = 10240;
+					- _name = "itsSatellite System";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3517555e-c9ea-4e28-99de-6de184e2ac14;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1a83f9eb-fe40-4398-8558-90bcfdaf0adc;
+					- _myState = 10240;
+					- _name = "itsRepairman";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID c9bdac1e-dfca-4050-ab78-726aeae7ad07;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fec5f372-f896-4966-90fd-aabe5e016034;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -1404,7 +1542,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 8859cdbf-dc09-4932-8030-f758bd4dff38;
@@ -1418,6 +1556,23 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _id = GUID cb5af74f-8ee9-493c-9072-d1efcf349379;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d07fdce3-6146-4f7d-b7e9-2be8e2d06205;
+					- _myState = 10240;
+					- _name = "itsRepairman";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID c9bdac1e-dfca-4050-ab78-726aeae7ad07;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 55cee8d7-be43-4586-bc47-d42c1028fe93;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -1878,14 +2033,14 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID 22d2e47a-3bf5-410a-9efb-eab3b4da5d9e;
 			- _myState = 8192;
 			- _name = "Satellite System";
-			- weakCGTime = 1.28.2011::16:4:55;
+			- weakCGTime = 1.29.2011::13:43:21;
 			- strongCGTime = 1.28.2011::16:4:39;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 1;
+				- size = 2;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 1b6184d5-1850-4d81-b4ff-246e05f9b582;
@@ -1904,6 +2059,23 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- _linkType = Assoc;
 					- _navigability = Navigable;
 				}
+				{ IAssociationEnd 
+					- _id = GUID 3517555e-c9ea-4e28-99de-6de184e2ac14;
+					- _myState = 10240;
+					- _name = "itsCalibrate Compass";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 4e4f914c-5afa-4906-bbcd-e483b8994f1e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 823b9e56-ba6e-4370-a9fd-225ffa80f0c2;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 		}
@@ -1911,11 +2083,66 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID c9bdac1e-dfca-4050-ab78-726aeae7ad07;
 			- _myState = 8192;
 			- _name = "Repairman";
-			- weakCGTime = 1.28.2011::16:8:48;
+			- weakCGTime = 1.29.2011::13:43:42;
 			- strongCGTime = 1.28.2011::16:8:48;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 1d22090c-1062-476e-84d2-e6c0bdf80442;
+					- _myState = 10240;
+					- _name = "itsChange Batteries";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c9adf31a-bfe4-4e90-b48b-916f258af437;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ea1127ac-4e99-4eba-8f8a-6e01353c735a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 55cee8d7-be43-4586-bc47-d42c1028fe93;
+					- _myState = 10240;
+					- _name = "itsFactory Reset";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID b9e6d1f1-bcb5-48c2-b505-eb527590c5e2;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d07fdce3-6146-4f7d-b7e9-2be8e2d06205;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID fec5f372-f896-4966-90fd-aabe5e016034;
+					- _myState = 10240;
+					- _name = "itsCalibrate Compass";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 4e4f914c-5afa-4906-bbcd-e483b8994f1e;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1a83f9eb-fe40-4398-8558-90bcfdaf0adc;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 		}
