@@ -4,7 +4,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 	- _myState = 8192;
 	- _name = "Default";
 	- _lastID = 33;
-	- weakCGTime = 1.29.2011::13:38:41;
+	- weakCGTime = 1.29.2011::14:27:37;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 	- _eventsBaseID = -1;
@@ -15,7 +15,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID 770ddd54-6710-4c25-aa7f-d10b12d38b64;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- weakCGTime = 1.28.2011::16:8:33;
+			- weakCGTime = 1.29.2011::13:38:41;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -30,7 +30,31 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 		{ IUseCase 
 			- _id = GUID 629ac3c2-f7bc-4573-9605-54b97b5f28d1;
 			- _myState = 8192;
-			- _name = "Power on and off device";
+			- _name = "Power off device";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1053{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Turn off\\par
+\\par
+The GPS user wants to turn off the device.\\par
+\\par
+Basic flow\\par
+1. Use case begins when the user chooses the power off option.\\par
+2. The use case ends when the device\\rquote s screen turns black.\\par
+\\par
+Alternative flows\\par
+1. At 1, the user let go of the power off option before screen turns black. The use case\\par
+aborts.\\par
+\\par
+Preconditions\\par
+1. The device has to be turned on.\\par
+\\par
+Post-conditions\\par
+1. The device is turned off.\\par
+\\par
+Use case scenario\\par
+}
+";
+			}
 			- _lastID = 3;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -94,7 +118,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						}
 					}
 					- _name = "structurediagram_0";
-					- _lastModifiedTime = "1.28.2011::13:28:14";
+					- _lastModifiedTime = "1.29.2011::14:30:32";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID e7a320ad-9f39-4cfe-ae99-82ec38294166;
 						- m_type = 0;
@@ -174,7 +198,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 							}
 							- m_pParent = GUID 04c3f0a0-ab18-417e-9b41-033901d3a802;
 							- m_name = { CGIText 
-								- m_str = "Power on and off device";
+								- m_str = "Power off device";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -568,7 +592,50 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 		{ IUseCase 
 			- _id = GUID 45f155dd-4e87-4069-92aa-1ae710bca77d;
 			- _myState = 8192;
-			- _name = "Search Destinations";
+			- _name = "Search for destination";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1053{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Search for destination\\par
+\\par
+The GPS user wants to find the destination using Outdoor GPS device.\\par
+\\par
+Basic flow\\par
+1. Use case begins when the user selects the searching feature on the GPS device. The\\par
+GPS device lights display.\\par
+2. The user inserts the first letters of the destination name.\\par
+3. The GPS device display shows the names of all possible destinations starting with that\\par
+letters.\\par
+4. The use case ends. The user is ready to pick the destination from the list.\\par
+\\par
+Alternative flows\\par
+a. At 2, the name of the last destination is shown on the display. The user deletes that\\par
+name and inserts new one, the use case resumes from 3.\\par
+b. At 3, the GPS device can not find the destination name in the database, because of the\\par
+typo. The use case aborts.\\par
+c. At 1, the GPS device does not light the display. There is no battery in it. The use case\\par
+aborts.\\par
+\\par
+Sub-flows\\par
+1. Select destination from the list. The list of most often used destinations is shown on the\\par
+screen. The user finds the destination in the list.\\par
+\\par
+Preconditions\\par
+1. The user takes the GPS device in his/her hands.\\par
+\\par
+Postconditions\\par
+1. The list of all possible destinations according to the user\\rquote s search is shown on the\\par
+display.\\par
+\\par
+Extension points\\par
+1. Inclusion.\\par
+\\par
+Use case scenario\\par
+Searching the destination - Basic flow.\\par
+Resetting the name - Basic flow, a\\par
+Searching the destination in the list - Subflow 1, Basic flow.\\par
+}
+";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -604,7 +671,41 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 		{ IUseCase 
 			- _id = GUID 0a03ced8-9473-49e2-b9e4-d27ea055dae4;
 			- _myState = 8192;
-			- _name = "Select Destination";
+			- _name = "Show previous destinatinos";
+			- _description = { IDescription 
+				- _text = "Show previous destinations
+
+The user wants to see previous destinations
+
+Basic flow
+1. Use case begins when the user opens the history feature of the GPS.
+2. The user selects to show last destinations.
+3. The GPS device display shows the names of destinations used previously ordered by
+the last one used.
+4. The use case ends. The user may then choose a destination from the list.
+
+Alternative flows
+a. At 2, the device may not have destinations in history. The device will respond with a
+message stating as much, and the user will be returned to the main screen, aborting the
+use case.
+b. At 1, the GPS device does not respond. The device will need recharged. The use case
+aborts.
+
+Subflows
+1. None.
+
+Preconditions
+1. The device must have power and be functional.
+
+Postconditions
+1. The last used destinations must be displayed on the screen.
+
+Extension points
+1. None.
+
+Use case scenario
+Device has power and history mode is available - Basic flow.";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -647,7 +748,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				{ IDependency 
 					- _id = GUID 33947bb2-bd7f-4be1-8549-ce5ab68c4a31;
 					- _myState = 2048;
-					- _name = "Select Destination";
+					- _name = "Show previous destinatinos";
 					- _dependsOn = { INObjectHandle 
 						- _m2Class = "IUseCase";
 						- _id = GUID 0a03ced8-9473-49e2-b9e4-d27ea055dae4;
@@ -727,6 +828,39 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID 5e91f082-64dd-445a-9d91-c0ac6df8be9f;
 			- _myState = 8192;
 			- _name = "Show ETA";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1053{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Show ETA\\par
+\\par
+The GPS user wants to know how long it will take him/her to get to the destination.\\par
+\\par
+Basic flow\\par
+1. Use case begins when the user selects a destination.\\par
+2. When the user starts moving and according to the average of the speed the device will calculate the ETA.\\par
+3. The GPS device display shows the ETA to the user and their average speed.\\par
+4. The use case ends when the user reaches their destination and there is no need for ETA anymore.\\par
+\\par
+\\par
+Alternative flows\\par
+1. At 2, the user doesn\\rquote t start moving and their speed will be 0 for a long at time at which the device will reset and not count their current speed in the average speed.\\par
+2. At 3, the user will stop before reaching the destination and the use case will reset.\\par
+3. At 3, the user will change the destination at which the use case will restart and calculate the time for the new destination.\\par
+\\par
+\\par
+Preconditions\\par
+1. A destination has to be selected.\\par
+\\par
+\\par
+Postconditions\\par
+1. The device shows that destination has been reached and asks for a new destination.\\par
+\\par
+\\par
+\\tab\\par
+Use case scenario\\par
+Looking at the ETA - Basic flow.\\par
+}
+";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -1213,6 +1347,36 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID ad0130d3-33c1-4cc2-89e9-db40d21e9ff4;
 			- _myState = 8192;
 			- _name = "Change Language";
+			- _description = { IDescription 
+				- _text = "Change text language
+
+The GPS device user wants to change the language of the text.
+
+Basic flow
+1. The use case begins with the user turning on the device.
+2. User navigates to the main menu.
+3. The device displays possible choices that the user can select.
+4. The user navigates to system settings.
+5. The available languages are displayed by selecting Language settings.
+6. The user can now select a language.The use case ends.
+
+Alternative flows
+1. At 4 the user can select another option from the main menu. The use case
+aborts.
+
+Subflows
+
+Preconditions
+1. The user has the device in their hands.
+2. The device has battery inserted and the battery is charged.
+
+Postconditions
+1. All languages that can be selected are shown on the display.
+
+Extension points
+
+Use case scenario";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -1321,6 +1485,40 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID 60532f27-0501-49a9-9343-fbff03b8f502;
 			- _myState = 8192;
 			- _name = "Create Route";
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1053{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Create a route\\par
+\\par
+The GPS user wants to create a route using Outdoor GPS device.\\par
+\\par
+Basic flow\\par
+Entering a \\ldblquote Route Planner\\rdblquote  and reaching the appropriate menu.\\par
+Entering all the points of the route\\par
+Save and exit\\par
+\\par
+\\par
+Alternative flows\\par
+When entering points of the route, there can be no points in the database or an older version of the map. Then user should define a new point or upload a new version of the map.\\par
+\\par
+\\par
+Sub-flows\\par
+To enter a Route Planner user must enter a Create Route menu, select a category of the route.\\par
+NOTE: A route should have a minimum of two points.\\par
+\\par
+\\par
+Preconditions\\par
+There are no valuable preconditions beside turning the device on and having an appropriate map\\par
+\\par
+\\par
+Postconditions\\par
+A new route in the selected category\\par
+\\par
+\\par
+Extension points\\par
+Having installed and up to date maps\\par
+}
+";
+			}
 			- weakCGTime = 1.2.1990::0:0:0;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
@@ -1592,7 +1790,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 			- _id = GUID aa3bc7a0-c957-47ce-bda0-b0ccc01fe000;
 			- _myState = 8192;
 			- _name = "user";
-			- weakCGTime = 1.28.2011::15:43:21;
+			- weakCGTime = 1.29.2011::14:30:32;
 			- strongCGTime = 1.25.2011::13:48:57;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1621,7 +1819,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				{ IAssociationEnd 
 					- _id = GUID c0cc4e85-d96e-4381-bf79-a32a99376e13;
 					- _myState = 10240;
-					- _name = "itsPower on and off device";
+					- _name = "itsPower off device";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IUseCase";
@@ -1638,7 +1836,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				{ IAssociationEnd 
 					- _id = GUID 3564f30c-ab4e-41f1-8167-10f83bc6a518;
 					- _myState = 10240;
-					- _name = "itsSearch Destinations";
+					- _name = "itsSearch for destination";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IUseCase";
@@ -1808,7 +2006,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				{ IAssociationEnd 
 					- _id = GUID 5661f07e-5065-4ad4-b63a-9ee19a607d8c;
 					- _myState = 10240;
-					- _name = "itsSelect Destination";
+					- _name = "itsShow previous destinatinos";
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IUseCase";
