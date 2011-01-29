@@ -404,7 +404,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 			}
 			- _name = "TAD1";
-			- _lastModifiedTime = "1.29.2011::13:45:43";
+			- _lastModifiedTime = "1.29.2011::14:38:36";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8f488ffe-28f1-49df-a564-eca309e820d2;
 				- m_type = 0;
@@ -428,7 +428,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 62;
+				- elementList = 59;
 				{ CGIClass 
 					- _id = GUID 78b82330-05b1-4156-917b-57c77960b019;
 					- m_type = 78;
@@ -653,12 +653,12 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Power on and off device";
+						- _name = "Power off device";
 						- _id = GUID 629ac3c2-f7bc-4573-9605-54b97b5f28d1;
 					}
 					- m_pParent = GUID 753a7680-5fd5-4e1f-acb3-84e6e1bb1fa5;
 					- m_name = { CGIText 
-						- m_str = "Power on and off device";
+						- m_str = "Power off device";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -671,7 +671,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.161399 0 0 0.126478 179.44 60.8416 ;
+					- m_transform = 0.161399 0 0 0.126478 179.44 27.9212 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -793,12 +793,12 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Search Destinations";
+						- _name = "Search for destination";
 						- _id = GUID 45f155dd-4e87-4069-92aa-1ae710bca77d;
 					}
 					- m_pParent = GUID 753a7680-5fd5-4e1f-acb3-84e6e1bb1fa5;
 					- m_name = { CGIText 
-						- m_str = "Search Destinations";
+						- m_str = "Search for destination";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -811,7 +811,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.160891 0 0 0.126794 293.605 685.968 ;
+					- m_transform = 0.160891 0 0 0.126794 804.485 504.906 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -863,12 +863,12 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Select Destination";
+						- _name = "Show previous destinatinos";
 						- _id = GUID 0a03ced8-9473-49e2-b9e4-d27ea055dae4;
 					}
 					- m_pParent = GUID 753a7680-5fd5-4e1f-acb3-84e6e1bb1fa5;
 					- m_name = { CGIText 
-						- m_str = "Select Destination";
+						- m_str = "Show previous destinatinos";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -881,7 +881,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.160891 0 0 0.126794 713.662 685.968 ;
+					- m_transform = 0.160891 0 0 0.126794 293.605 669.508 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -951,7 +951,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.160891 0 0 0.126794 986.13 965.791 ;
+					- m_transform = 0.160891 0 0 0.126794 883.954 867.03 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1881,76 +1881,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 					- m_nIsNameFormat = 0;
 				}
 				{ CGIBasicClass 
-					- _id = GUID 69afd51f-66a2-4a53-9d0d-0dba9a9796b5;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "UseCase";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Font.Size";
-												- _Value = "14";
-												- _Type = Int;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 125;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IUseCase";
-						- _filename = "Default.sbs";
-						- _subsystem = "Default";
-						- _class = "";
-						- _name = "Choose Map";
-						- _id = GUID 6b6b359f-cd64-46f8-9752-7b16696701f0;
-					}
-					- m_pParent = GUID 753a7680-5fd5-4e1f-acb3-84e6e1bb1fa5;
-					- m_name = { CGIText 
-						- m_str = "Choose Map";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 2056;
-					- m_transform = 0.160891 0 0 0.126794 793.132 439.065 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 -2 -1  -2 1070  1127 1070  1127 -1  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-				}
-				{ CGIBasicClass 
 					- _id = GUID 8a55f8fb-66d3-4d0d-922e-be01eb1bb811;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
@@ -2685,7 +2615,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "user";
-						- _name = "itsPower on and off device";
+						- _name = "itsPower off device";
 						- _id = GUID c0cc4e85-d96e-4381-bf79-a32a99376e13;
 					}
 					- m_pParent = ;
@@ -2731,7 +2661,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Power on and off device";
+						- _class = "Power off device";
 						- _name = "itsUser";
 						- _id = GUID ef58e9b1-8ca9-4bc3-945c-40f88be58115;
 					}
@@ -2878,7 +2808,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "user";
-						- _name = "itsSearch Destinations";
+						- _name = "itsSearch for destination";
 						- _id = GUID 3564f30c-ab4e-41f1-8167-10f83bc6a518;
 					}
 					- m_pParent = ;
@@ -2924,7 +2854,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Search Destinations";
+						- _class = "Search for destination";
 						- _name = "itsUser";
 						- _id = GUID 55ee0512-fcf0-48a2-8bc4-2aab21a63284;
 					}
@@ -4615,7 +4545,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "user";
-						- _name = "itsSelect Destination";
+						- _name = "itsShow previous destinatinos";
 						- _id = GUID 5661f07e-5065-4ad4-b63a-9ee19a607d8c;
 					}
 					- m_pParent = ;
@@ -4661,7 +4591,7 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Select Destination";
+						- _class = "Show previous destinatinos";
 						- _name = "itsUser";
 						- _id = GUID baff5256-ecb2-45fb-9885-e1005b5e51ea;
 					}
@@ -5822,199 +5752,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- _class = "Add to Favorites List";
 						- _name = "itsUser";
 						- _id = GUID a949c64e-2aa2-49ce-b418-bbc0cdf74a55;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 1;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 0;
-					- m_bShowQualifier2 = 0;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIAssociationEnd 
-					- _id = GUID 93f5ddc9-5f8d-4ffd-bb5d-18daff1f1b48;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 2;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Association";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Font.Size";
-												- _Value = "14";
-												- _Type = Int;
-											}
-										}
-									}
-								}
-							}
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 94;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Default.sbs";
-						- _subsystem = "Default";
-						- _class = "user";
-						- _name = "itsChoose Map";
-						- _id = GUID 25cfbae5-bea3-4a04-be2c-94a8232871bd;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 0;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID a2684fb2-3d2b-487a-a130-a33976e97100;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID 69afd51f-66a2-4a53-9d0d-0dba9a9796b5;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 0;
-					- m_SourcePort = 1058 541 ;
-					- m_TargetPort = 471 331 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Default.sbs";
-						- _subsystem = "Default";
-						- _class = "Choose Map";
-						- _name = "itsUser";
-						- _id = GUID 500262fd-29f5-4d90-9b2b-6867300e1d64;
 					}
 					- m_pInstance = { IObjectLinkHandle 
 						- _m2Class = "";
@@ -7943,84 +7680,6 @@ I-Logix-RPY-Archive version 8.5.2 Java 2030848
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_specificType = symmetric_type;
-				}
-				{ CGIInheritance 
-					- _id = GUID 98ecf81f-f723-4510-8a5a-f2505e30abee;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 128;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IDependency";
-						- _filename = "Default.sbs";
-						- _subsystem = "Default";
-						- _class = "Show Route";
-						- _name = "Select Destination";
-						- _id = GUID 33947bb2-bd7f-4be1-8549-ce5ab68c4a31;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "Select Destination";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 8;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID 6def18d8-4f9e-482e-b9f8-6c93d5ff9196;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID 4036ca77-7f09-44ea-9c87-613fd5069347;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 0;
-					- m_SourcePort = 774 691 ;
-					- m_TargetPort = 986 443 ;
-					- m_ShowName = 0;
-					- m_ShowStereotype = 1;
 				}
 				
 				- m_access = 'Z';
