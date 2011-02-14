@@ -67,7 +67,7 @@ public class Main
 			} else if (maze.checkMapAv(x, y - 1))
 			{
 				answer.push(new Point(x, y - 1));
-				answerList.add("Go South to " + x + ", " + (y - 1));
+				answerList.add("Go North to " + x + ", " + (y - 1));
 				y--;
 			} else if (answer.isEmpty())
 			{
@@ -80,10 +80,16 @@ public class Main
 				// reached a dead-end go back a step
 				last = answer.pop();
 				answerList.remove(answerList.size() - 1);
-
+				last = answer.pop();
 				x = last.x;
 				y = last.y;
+				answer.push(last);
 			}
+		}
+		
+		while (!answer.isEmpty())
+		{
+			last = answer.pop();
 		}
 
 		return answerList;
