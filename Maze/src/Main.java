@@ -31,17 +31,9 @@ public class Main
 		// calculating the route
 		ArrayList<String> answer = findAnswer();
 
-		boolean cont = true;
 
-		while (cont)
-		{
-			for (int i = 0; i < answer.size(); i++)
-				System.out.println((i + 1) + ": " + answer.get(i));
-			
-			answer = findAnswer();
-			
-			cont = askContinue();
-		}
+		for (int i = 0; i < answer.size(); i++)
+			System.out.println((i + 1) + ": " + answer.get(i));
 
 	}
 
@@ -95,35 +87,5 @@ public class Main
 		}
 
 		return answerList;
-	}
-
-	private static boolean askContinue ()
-	{
-		boolean answer = false;
-		String [] options = { "Yes", "No" };
-
-		int response = JOptionPane.showOptionDialog(null, "Do you want to get another route options?" // Message
-				, "Another route" // Title
-				, JOptionPane.YES_NO_OPTION // Option type
-				, JOptionPane.PLAIN_MESSAGE // messageType
-				, null // Icon (none)
-				, options // Buttons text from array
-				, "No" // Default button label
-		);
-		switch (response)
-		{
-			case 0:
-				answer = true;
-				break;
-			case 1:
-				answer = false;
-				break;
-			case -1:
-				break;
-			default:
-				// Unforeseen problems (won't end up here usually)
-				JOptionPane.showMessageDialog(null, "Unexpected response " + response);
-		}
-		return answer;
 	}
 }
