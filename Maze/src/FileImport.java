@@ -54,15 +54,15 @@ public class FileImport
 	 * @param textPath
 	 * @return
 	 */
-	public static boolean[][] readFile (String textPath)
+	public static boolean [][] readFile (String textPath)
 	{
 		File openFile = new File(textPath);
 		String line = null;
-		
-		ArrayList <String> lines = new ArrayList <String>(); 
+
+		ArrayList<String> lines = new ArrayList<String>();
 		boolean [][] maze = null;
-		String [][] mazeString = null;
-		
+		char [][] mazeChar = null;
+
 		try
 		{
 			BufferedReader reader = new BufferedReader(new FileReader(openFile));
@@ -71,22 +71,25 @@ public class FileImport
 				// create ArrayList with each Book using Book Class
 				lines.add(line);
 			}
-			
+
 			maze = new boolean[lines.size()][lines.get(0).length()];
-			mazeString = new String[lines.size()][lines.get(0).length()];
+			mazeChar = new char[lines.size()][lines.get(0).length()];
+
+			for (int i = 0; i < lines.size(); i++)
+				mazeChar[i] = lines.get(i).toCharArray();
+
 			
 			for (int i = 0; i < lines.size(); i++)
-				mazeString[i] = lines.get(i).split("");
-			
-			for (int i = 0; i < maze.length; i++)
-				for (int j = 0; j < maze[0].length; j++)
-					if (mazeString[i][j].equals("1"))
+				for (int j = 0; j < lines.get(0).length(); j++)
+				{
+					if (mazeChar[i][j] == '1')
 						maze[i][j] = true;
-					else if (mazeString[i][j].equals("0"))
+					else if (mazeChar[i][j] == '0')
 						maze[i][j] = false;
-			
+				}
+
 			return maze;
-			
+
 		} catch (FileNotFoundException e)
 		{
 			e.printStackTrace();
@@ -94,7 +97,7 @@ public class FileImport
 		{
 			e.printStackTrace();
 		}
-		
+
 		maze = null;
 		return maze;
 	}

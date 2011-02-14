@@ -9,7 +9,7 @@ public class Maze
 	
 	public void setMapVisited (int x, int y)
 	{
-		this.mapVisited[x][y] = true;
+		this.mapVisited[y][x] = true;
 	}
 
 	public int getMapSizeX ()
@@ -27,7 +27,7 @@ public class Maze
 		if (!((0 <= x && x < getMapSizeX()) && (0 <= y && y < getMapSizeY())))
 			return false;
 		
-		return !(map[x][y] || mapVisited[x][y]);
+		return !(map[y][x] || mapVisited[y][x]);
 	}
 
 	public void setMap (boolean [][] map)
